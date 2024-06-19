@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(193, 194, 195);
+}
+.main{
+    width: 60%;
+    align-items: center;
+    background-color: rgb(109, 176, 234);
+    padding: 8px;
+    margin: 25vh auto;
+}
+.temp-main h1{
+    text-align: center;
+    padding: 25px;
+}
+.ul-inputs ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+ul .list-item{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.list-item > p{
+    font-size: 18px;
+    font-weight: bold;
+}
+li #temperature1 , li #temperature2 {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 90%;
+}
+.ul-inputs > .inputs{
+    padding: 8px;
+    text-align: center;
+}
+.inputs > .temp-value{
+    padding: 10px;
+    font-size: 20px;
+}
+.inputs > .temp-value::placeholder{
+    text-align: center;
+}
+.inputs > .temp-value{
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.inputs > .temp-value[type="number"]::-webkit-outer-spin-button,
+.inputs > .temp-value[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: none;
+}
+#myBtn{
+    width: 150px;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 15px;
+    background-color: red;
+    padding: 10px;
+}
+.temper-res{
+    text-align: center;
+    padding: 20px 0px;
+}
+div > #temp-result{
+    font-size: x-large;
+}
+div > #degree-sign{
+    font-size: xx-large;
+}
+div > #temp-sign{
+    font-size: large;
+}
+
+
